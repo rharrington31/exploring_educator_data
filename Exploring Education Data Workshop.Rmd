@@ -1,0 +1,64 @@
+---
+title: "Exploring Educator Data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# install.packages("RSocrata")
+library(RSocrata)
+
+# install.packages("tidyverse")
+library(tidyverse)
+```
+
+```{r}
+salary <- read.socrata("https://data.delaware.gov/Education/Educator-Average-Salary/rv4m-vy79")
+# attributes <- read.socrata("https://data.delaware.gov/Education/Educator-Characteristics/t9ya-d7ak")
+```
+
+# What are the fields in the dataset?
+
+```{r}
+
+```
+
+# What are the dimensions of the data?
+
+```{r}
+
+```
+
+# What are the column types in the data?
+
+```{r}
+
+```
+
+# Can we quickly summarize the data?
+
+```{r}
+
+```
+
+# What are the counts of key fields?
+
+```{r}
+
+```
+
+# What does the data look like?
+
+```{r}
+
+```
+
+# How can we view different columns or rows of the data?
+
+```{r}
+
+```
+
